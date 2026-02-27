@@ -23,7 +23,7 @@ const Gallery = () => {
             Curated Collection
           </p>
           <h1 className="font-display text-3xl md:text-5xl font-bold">
-            Clothing Gallery
+            Our Gallery
           </h1>
           <p className="text-muted-foreground mt-3 max-w-md mx-auto">
             Browse our curated selection and try any item on virtually.
@@ -70,6 +70,17 @@ const Gallery = () => {
             </motion.div>
           ))}
         </div>
+
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, delay: 0.4 }}
+          className="text-center mt-16"
+        >
+          <h2 className="font-display text-2xl md:text-4xl font-bold">
+            Try Our Clothes Club
+          </h2>
+        </motion.div>
       </div>
     </div>
   );
