@@ -62,7 +62,7 @@ const TryOn = () => {
           >
             <ImageUploadZone
               label="Your Photo"
-              sublabel="JPG or PNG, max 5MB. Full, half, or upper body."
+              sublabel="JPG or PNG, max 15MB. Full, half, or upper body."
               image={userImage}
               onImageChange={handleUserImage}
             />

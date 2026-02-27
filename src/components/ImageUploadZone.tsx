@@ -14,8 +14,8 @@ const ImageUploadZone = ({ label, sublabel, image, onImageChange }: ImageUploadZ
   const handleFile = useCallback(
     (file: File) => {
       if (!file.type.startsWith("image/")) return;
-      if (file.size > 5 * 1024 * 1024) {
-        alert("File must be under 5MB");
+      if (file.size > 15 * 1024 * 1024) {
+        alert("File must be under 15MB");
         return;
       }
       onImageChange(file);
