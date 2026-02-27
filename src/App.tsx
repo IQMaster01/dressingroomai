@@ -7,6 +7,8 @@ import Layout from "./components/Layout";
 import Index from "./pages/Index";
 import TryOn from "./pages/TryOn";
 import Gallery from "./pages/Gallery";
+import AdminLogin from "./pages/AdminLogin";
+import AdminDashboard from "./pages/AdminDashboard";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -23,6 +25,8 @@ const App = () => (
             <Route path="/try-on" element={<TryOn />} />
             <Route path="/gallery" element={<Gallery />} />
           </Route>
+          <Route path="/admin-login" element={<AdminLogin />} />
+          <Route path="/admin" element={<AdminDashboard />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
