@@ -6,10 +6,10 @@ const Footer = () => (
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
         <div>
           <h3 className="font-display text-lg font-semibold mb-3">
-            Changing Room <span className="text-gradient-gold">AI</span>
+            Dressing Room <span className="text-gradient-gold">AI</span>
           </h3>
           <p className="text-sm text-muted-foreground leading-relaxed">
-            Your personal AI-powered virtual fitting room. Try on any outfit instantly with realistic results.
+            Your personal AI-powered virtual dressing room. Try on any outfit instantly with realistic results.
           </p>
         </div>
         <div>
@@ -29,7 +29,7 @@ const Footer = () => (
         </div>
       </div>
       <div className="border-t border-border mt-8 pt-6 text-center">
-        <p className="text-xs text-muted-foreground">© 2026 Changing Room AI. All rights reserved.</p>
+        <p className="text-xs text-muted-foreground">© 2026 Dressing Room AI. All rights reserved.</p>
       </div>
     </div>
   </footer>
