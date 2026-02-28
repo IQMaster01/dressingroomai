@@ -50,7 +50,7 @@ const Index = () => {
             <h1 className="font-display text-5xl md:text-7xl font-bold leading-[1.1] mb-6">
               Your Personal{" "}
               <span className="text-gradient-gold">AI</span>{" "}
-              Changing Room
+              Dressing Room
             </h1>
             <p className="text-lg text-muted-foreground leading-relaxed mb-8 max-w-lg">
               Try on any outfit virtually with zero compromise on identity. 
